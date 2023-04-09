@@ -86,19 +86,19 @@ const dataNav =async ()=>{
 //     try {
 //         const res=await fetch(`${NAV_URL}/category/${name}`)
 //         const data =await res.json();
-//         // render(data)
+//         render(data)
 //         console.log(data);
 //     } catch (error) {
 //         console.log(error)
 //     }
 // }
 
-dataNav();
+
 // getSearch();
+dataNav();
 
 
-
-// input.addEventListener('change',(e)=>{
+// input.addEventListener('click',(e)=>{
 //     getSearch(e.target.value)
 // })
 
@@ -152,4 +152,8 @@ btn.addEventListener('click',(e)=>{
     e.preventDefault();
     korzina.innerHTML='';
     alert('Xaridingiz uchun raxmat!')
+})
+
+form2.addEventListener('click',(e)=>{
+    e.preventDefault
 })

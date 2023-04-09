@@ -67,6 +67,21 @@
     border-radius: 10px;
   }
 
+  .header-section{
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .nav{
+    padding-bottom: 25px;
+  }
+
+  .head-left{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+
+  }
+
   .flash-sale{
     background-image: url(./img/PromotionImage.svg);
     background-repeat: no-repeat;
